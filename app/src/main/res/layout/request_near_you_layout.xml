@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_gravity="center"
+    android:layout_marginBottom="75dp">
+
+    <TextView
+        android:id="@+id/requestNearYouTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginStart="15dp"
+
+        android:text="Request's near you"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/viewMoreTextView"
+        android:layout_width="287dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="130dp"
+
+        android:text="View more"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:underline="true" />
+
+</LinearLayout>
